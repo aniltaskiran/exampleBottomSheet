@@ -12,6 +12,8 @@
 		4D49E99D22BFA1E400D24400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D49E99B22BFA1E400D24400 /* Main.storyboard */; };
 		4D49E99F22BFA1E700D24400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D49E99E22BFA1E700D24400 /* Assets.xcassets */; };
 		4D49E9A222BFA1E700D24400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D49E9A022BFA1E700D24400 /* LaunchScreen.storyboard */; };
+		4D49E9AB22BFA23C00D24400 /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D49E9A922BFA23C00D24400 /* BottomSheetViewController.swift */; };
+		4D49E9AE22BFA2F700D24400 /* BottomSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D49E9AD22BFA2F700D24400 /* BottomSheetViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4D49E99E22BFA1E700D24400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D49E9A122BFA1E700D24400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D49E9A322BFA1E700D24400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D49E9A922BFA23C00D24400 /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
+		4D49E9AD22BFA2F700D24400 /* BottomSheetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomSheetViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				4D49E99722BFA1E400D24400 /* AppDelegate.swift */,
 				4D49E99922BFA1E400D24400 /* ViewController.swift */,
+				4D49E9A922BFA23C00D24400 /* BottomSheetViewController.swift */,
+				4D49E9AD22BFA2F700D24400 /* BottomSheetViewController.xib */,
 				4D49E99B22BFA1E400D24400 /* Main.storyboard */,
 				4D49E99E22BFA1E700D24400 /* Assets.xcassets */,
 				4D49E9A022BFA1E700D24400 /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 				4D49E9A222BFA1E700D24400 /* LaunchScreen.storyboard in Resources */,
 				4D49E99F22BFA1E700D24400 /* Assets.xcassets in Resources */,
 				4D49E99D22BFA1E400D24400 /* Main.storyboard in Resources */,
+				4D49E9AE22BFA2F700D24400 /* BottomSheetViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +144,7 @@
 			files = (
 				4D49E99A22BFA1E400D24400 /* ViewController.swift in Sources */,
 				4D49E99822BFA1E400D24400 /* AppDelegate.swift in Sources */,
+				4D49E9AB22BFA23C00D24400 /* BottomSheetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
